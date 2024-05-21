@@ -14,6 +14,11 @@ import Tab1 from "../assets/Tab1.png";
 import Tab2 from "../assets/Tab2.png";
 import Tab3 from "../assets/Tab3.png";
 import Tab4 from "../assets/Tab4.png";
+import Icon1 from "../assets/hands-on-practice.png";
+import Icon2 from "../assets/certificate.png";
+import Icon3 from "../assets/empty-state-1.png";
+import Icon4 from "../assets/organizations-2.png";
+
 // import getScrollAnimation from "../utils/getScrollAnimation";
 
 const data = [
@@ -21,7 +26,7 @@ const data = [
     label: "Hands-on training",
     value: "training",
     desc: Tab1,
-    icon: "src/assets/hands-on-practice.png",
+    icon: Icon1,
     description:
       "Upskill effectively with AI-powered coding exercises, practice tests, skills assessments, labs, and workspaces.",
   },
@@ -29,7 +34,7 @@ const data = [
     label: "Certification prep",
     value: "certification",
     desc: Tab2,
-    icon: "src/assets/certificate.png",
+    icon: Icon2,
     description:
       "Upskill effectively with AI-powered coding exercises, practice tests, skills assessments, labs, and workspaces.",
   },
@@ -37,7 +42,7 @@ const data = [
     label: "Insights and analytics",
     value: "insights",
     desc: Tab3,
-    icon: "src/assets/empty-state-1.png",
+    icon: Icon3,
     description:
       "Upskill effectively with AI-powered coding exercises, practice tests, skills assessments, labs, and workspaces.",
   },
@@ -45,7 +50,7 @@ const data = [
     label: "Customizable Content",
     value: "customize",
     desc: Tab4,
-    icon: "src/assets/organizations-2.png",
+    icon: Icon4,
     description:
       "Upskill effectively with AI-powered coding exercises, practice tests, skills assessments, labs, and workspaces.",
   },

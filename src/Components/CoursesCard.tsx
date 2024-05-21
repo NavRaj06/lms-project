@@ -2,12 +2,19 @@ import { useState } from "react";
 import Slider from "react-slick";
 import ArrowBack from "../assets/Icons/eva_arrow-back-fill.svg";
 import ArrowNext from "../assets/Icons/eva_arrow-next-fill.svg";
+import React from "../assets/react-icon.jpg";
+import Phython from "../assets/python-logo.jpg";
+import php from "../assets/php-icon.png";
+import Nodejs from "../assets/nodejs-icon.png";
+import UIUX from "../assets/Google-Icon.jpeg";
+import Aws from "../assets/aws-icon.jpg";
+import JavaScript from "../assets/js-icon.png";
 
 const CoursesCard = ({
   listTestimoni = [
     {
       name: "React js",
-      image: "src/assets/react-icon.jpg",
+      image: React,
       type: "Frontend",
       rating: "4.5",
       testimoni:
@@ -15,7 +22,7 @@ const CoursesCard = ({
     },
     {
       name: "Phython",
-      image: "src/assets/python-logo.jpg",
+      image: Phython,
       type: "Backend",
       rating: "4.5",
       testimoni:
@@ -23,7 +30,7 @@ const CoursesCard = ({
     },
     {
       name: "php",
-      image: "src/assets/php-icon.png",
+      image: php,
       type: "Backend",
       rating: "4.5",
       testimoni:
@@ -31,7 +38,7 @@ const CoursesCard = ({
     },
     {
       name: "Nodejs",
-      image: "src/assets/nodejs-icon.png",
+      image: Nodejs,
       type: "Backend",
       rating: "4.5",
       testimoni:
@@ -39,7 +46,7 @@ const CoursesCard = ({
     },
     {
       name: "UI UX",
-      image: "src/assets/Google-Icon.jpeg",
+      image: UIUX,
       type: "Design",
       rating: "4.5",
       testimoni:
@@ -47,7 +54,7 @@ const CoursesCard = ({
     },
     {
       name: "AWS",
-      image: "src/assets/aws-icon.jpg",
+      image: Aws,
       type: "Cloud",
       rating: "4.5",
       testimoni:
@@ -55,7 +62,7 @@ const CoursesCard = ({
     },
     {
       name: "Javascript",
-      image: "src/assets/js-icon.png",
+      image: JavaScript,
       type: "Script",
       rating: "4.5",
       testimoni:
