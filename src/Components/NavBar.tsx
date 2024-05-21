@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
-import cloud from "../assets/cloud.png";
+import cloud from "../assets/Images/cloud.png";
 import ProfileComponent from "./ProfileComponent";
 
 const NavBar = () => {

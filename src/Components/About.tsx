@@ -1,5 +1,5 @@
 import ButtonPrimary from "./Common_Components/ButtonPrimary";
-import Illustration1 from "../assets/Illustration1.png";
+import Illustration1 from "../assets/Images/Illustration1.png";
 // import LMS1 from "../assets/LMS1.jpg";
 import { motion } from "framer-motion";
 import { useMemo } from "react";

@@ -2,13 +2,13 @@ import { useState } from "react";
 import Slider from "react-slick";
 import ArrowBack from "../assets/Icons/eva_arrow-back-fill.svg";
 import ArrowNext from "../assets/Icons/eva_arrow-next-fill.svg";
-import React from "../assets/react-icon.jpg";
-import Phython from "../assets/python-logo.jpg";
-import php from "../assets/php-icon.png";
-import Nodejs from "../assets/nodejs-icon.png";
-import UIUX from "../assets/Google-Icon.jpeg";
-import Aws from "../assets/aws-icon.jpg";
-import JavaScript from "../assets/js-icon.png";
+import React from "../assets/Images/react-icon.jpg";
+import Phython from "../assets/Images/python-logo.jpg";
+import php from "../assets/Images/php-icon.png";
+import Nodejs from "../assets/Images/nodejs-icon.png";
+import UIUX from "../assets/Images/Google-Icon.jpeg";
+import Aws from "../assets/Images/aws-icon.jpg";
+import JavaScript from "../assets/Images/js-icon.png";
 
 const CoursesCard = ({
   listTestimoni = [

@@ -1,4 +1,4 @@
-import Logo from "../assets/cloud.png";
+import Logo from "../assets/Images/cloud.png";
 import { Typography } from "@material-tailwind/react";
 
 const Footer = () => {

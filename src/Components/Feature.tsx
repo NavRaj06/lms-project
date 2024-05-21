@@ -1,4 +1,4 @@
-import Illustration2 from "../assets/Illustration2.png";
+import Illustration2 from "../assets/Images/Illustration2.png";
 // import LMS2 from "../assets/LMS2.jpeg";
 import { motion } from "framer-motion";
 import { useMemo } from "react";

@@ -16,9 +16,9 @@ import {
   PiMicrosoftTeamsLogoDuotone,
 } from "react-icons/pi";
 
-import profile1 from "../assets/profile1.jpg";
-import profile2 from "../assets/profile2.jpeg";
-import profile3 from "../assets/profile3.jpg";
+import profile1 from "../assets/Images/profile1.jpg";
+import profile2 from "../assets/Images/profile2.jpeg";
+import profile3 from "../assets/Images/profile3.jpg";
 
 const CardsData = [
   {
