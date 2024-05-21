@@ -6,7 +6,7 @@ import NavBar from "../Components/NavBar";
 import ProfileCard from "../Components/ProfileCard";
 import ScrollToTop from "../Components/ScrollToTop";
 import SubHero from "../Components/SubHero";
-import mainBg from "../assets/MainBg.jpg";
+import mainBg from "../assets/Images/MainBg.jpg";
 
 const LandingPage = () => {
   return (
