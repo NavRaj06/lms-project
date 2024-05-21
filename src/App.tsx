@@ -1,9 +1,9 @@
-import LandingPage from "./Pages/LandingPage";
+import Index from "./Routes";
 
 function App() {
   return (
     <>
-      <LandingPage />
+      <Index />
     </>
   );
 }
