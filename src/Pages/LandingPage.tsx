@@ -6,11 +6,12 @@ import NavBar from "../Components/NavBar";
 import ProfileCard from "../Components/ProfileCard";
 import ScrollToTop from "../Components/ScrollToTop";
 import SubHero from "../Components/SubHero";
+import mainBg from "../assets/MainBg.jpg";
 
 const LandingPage = () => {
   return (
     <>
-      <div className=" bg-[url('src/assets/MainBg.jpg')] ">
+      <div style={{ backgroundImage: `url(${mainBg})` }} className="bg-cover">
         <NavBar />
         <About />
       </div>
