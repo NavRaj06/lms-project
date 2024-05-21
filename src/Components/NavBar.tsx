@@ -13,8 +13,8 @@ const NavBar = () => {
   }, []);
   return (
     <div
-      className={`fixed z-30 min-w-full grid grid-flow-col px-6 py-4 sm:grid-flow-dense ${
-        scrollActive ? "bg-black shadow-md pt-4" : "bg-transparent pt-4"
+      className={`fixed z-30 min-w-full bg-black grid grid-flow-col px-6 py-4 sm:grid-flow-dense ${
+        scrollActive ? "shadow-md pt-4" : " pt-4"
       }`}
     >
       <div className="col-start-1 col-end-2 justify-center">

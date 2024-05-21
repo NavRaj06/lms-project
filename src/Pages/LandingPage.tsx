@@ -2,7 +2,7 @@ import About from "../Components/About";
 import CoursesCard from "../Components/CoursesCard";
 import Feature from "../Components/Feature";
 import Footer from "../Components/Footer";
-import NavBar from "../Components/NavBar";
+// import NavBar from "../Components/NavBar";
 import ProfileCard from "../Components/ProfileCard";
 import ScrollToTop from "../Components/ScrollToTop";
 import SubHero from "../Components/SubHero";
@@ -12,7 +12,7 @@ const LandingPage = () => {
   return (
     <>
       <div style={{ backgroundImage: `url(${mainBg})` }} className="bg-cover">
-        <NavBar />
+        {/* <NavBar /> */}
         <About />
       </div>
       <SubHero />
