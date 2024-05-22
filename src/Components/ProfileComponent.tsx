@@ -67,8 +67,8 @@ const ProfileComponent = () => {
                 color="blue-gray"
                 className="flex items-center gap-1 rounded-full py-0.5 pr-2 pl-0.5 lg:ml-auto"
                 placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
               >
                 <Avatar
                   variant="circular"
@@ -77,8 +77,8 @@ const ProfileComponent = () => {
                   className="border border-primary p-0.5"
                   src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
                   placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
+                  onPointerEnterCapture={() => {}}
+                  onPointerLeaveCapture={() => {}}
                 />
                 <ChevronDownIcon
                   strokeWidth={2.5}
@@ -91,8 +91,8 @@ const ProfileComponent = () => {
             <MenuList
               className="p-1"
               placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
             >
               {profileMenuItems.map(({ label, icon }, key) => {
                 const isLastItem = key === profileMenuItems.length - 1;
@@ -106,8 +106,8 @@ const ProfileComponent = () => {
                         : "text-black focus:bg-primary focus:bg-opacity-70 active:bg-primary"
                     }`}
                     placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
+                    onPointerEnterCapture={() => {}}
+                    onPointerLeaveCapture={() => {}}
                   >
                     {React.createElement(icon, {
                       className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
@@ -119,8 +119,8 @@ const ProfileComponent = () => {
                       className="font-normal"
                       color={isLastItem ? "red" : "inherit"}
                       placeholder={undefined}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
+                      onPointerEnterCapture={() => {}}
+                      onPointerLeaveCapture={() => {}}
                     >
                       {label}
                     </Typography>

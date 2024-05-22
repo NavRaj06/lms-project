@@ -1,10 +1,7 @@
 import About from "../Components/About";
 import CoursesCard from "../Components/CoursesCard";
 import Feature from "../Components/Feature";
-import Footer from "../Components/Footer";
-// import NavBar from "../Components/NavBar";
 import ProfileCard from "../Components/ProfileCard";
-import ScrollToTop from "../Components/ScrollToTop";
 import SubHero from "../Components/SubHero";
 import mainBg from "../assets/Images/MainBg.jpg";
 
@@ -32,8 +29,6 @@ const LandingPage = () => {
         </h1>
         <ProfileCard />
       </div>
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

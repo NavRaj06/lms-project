@@ -70,7 +70,7 @@ const SubHero = () => {
       <Tabs value={activeTab} orientation="vertical">
         <div className="flex flex-col mt-24 md:flex-row w-full max-w-6xl p-5">
           <div className="w-full p-5 md:mr-8">
-            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-medium leading-normal mb-4 sm:mb-6 lg:mb-16">
+            <h1 className="text-center text-xl sm:text-3xl lg:text-4xl font-medium leading-normal mb-4 sm:mb-6 lg:mb-16">
               See what you can learn with
               <strong className="text-primary"> LMS</strong>
             </h1>
@@ -109,7 +109,7 @@ const SubHero = () => {
           </div>
         </div>
 
-        <div className="w-full p-5 flex justify-center items-center">
+        <div className="w-full p-5 md:flex justify-center items-center hidden">
           <TabsBody
             placeholder={undefined}
             onPointerEnterCapture={undefined}

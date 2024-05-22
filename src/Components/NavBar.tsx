@@ -2,10 +2,12 @@ import { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import cloud from "../assets/Images/cloud.png";
 import ProfileComponent from "./ProfileComponent";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("");
   const [scrollActive, setScrollActive] = useState(false);
+  const navigate = useNavigate();
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
@@ -18,7 +20,12 @@ const NavBar = () => {
       }`}
     >
       <div className="col-start-1 col-end-2 justify-center">
-        <img src={cloud} alt="logo" className="h-9 w-auto" />
+        <img
+          src={cloud}
+          alt="logo"
+          className="h-9 w-auto cursor-pointer"
+          onClick={() => navigate("/lms-project/")}
+        />
       </div>
       <div className="col-start-2 col-end-8 text-white flex justify-end">
         <ul className="hidden lg:flex col-start-4 col-end-8 text-white  items-center">
@@ -41,6 +48,7 @@ const NavBar = () => {
             About
           </LinkScroll>
           <LinkScroll
+            onClick={() => navigate("/lms-project/")}
             activeClass="active"
             to="feature"
             spy={true}

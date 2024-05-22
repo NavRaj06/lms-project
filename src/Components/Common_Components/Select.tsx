@@ -1,24 +1,39 @@
-import React from "react";
+import { FC } from "react";
 import { Select, Option } from "@material-tailwind/react";
 
-const CustomSelect = () => {
-  const [value, setValue] = React.useState("react");
+interface CustomSelectProps {
+  label: string;
+  options: { value: string; label: string }[];
+  value?: string;
+  onChange?: (value: string) => void;
+  placeholder?: string;
+}
 
+const CustomSelect: FC<CustomSelectProps> = ({
+  label,
+  options,
+  placeholder,
+  value,
+  onChange,
+  ...rest
+}) => {
   return (
     <div className="w-72">
       <Select
-        label="Select Version"
-        value={value}
-        onChange={(val: any) => setValue(val)}
-        placeholder={undefined}
+        color="orange"
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
+        label={label}
+        value={value}
+        onChange={(e: any) => onChange && onChange(e)}
+        placeholder={placeholder}
+        {...rest}
       >
-        <Option value="html">Material Tailwind HTML</Option>
-        <Option value="react">Material Tailwind React</Option>
-        <Option value="vue">Material Tailwind Vue</Option>
-        <Option value="angular">Material Tailwind Angular</Option>
-        <Option value="svelte">Material Tailwind Svelte</Option>
+        {options.map((option) => (
+          <Option key={option.value} value={option.value}>
+            {option.label}
+          </Option>
+        ))}
       </Select>
     </div>
   );
